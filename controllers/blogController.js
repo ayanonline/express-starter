@@ -1,3 +1,5 @@
+const Blog = require('../models/blogsModel');
+
 exports.getAllBlogs = async (req, res) => {
   try {
     res.status(200).json({
